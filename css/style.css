@@ -1,0 +1,215 @@
+@font-face {
+	font-family: "Emblema One";
+	src: url("Emblema_One/EmblemaOne-Regular.ttf");
+}
+
+body {
+	font-size: medium;
+	margin: 0;
+	font-family: Verdana, Arial, sans-serif;
+	color: rgba(40, 100, 40, 1);
+	
+	
+	
+}
+
+
+header {
+	border: 15px rgba(100, 200, 100, 0.8) solid;
+	border-bottom: 20px rgba(80, 160, 80, 1) solid;
+	border-top: 15px rgba(80, 160, 80, 0.7) solid;
+	margin: 0;
+	padding: 0 0.5% 3% 1%;
+	max-height: 200px;
+	color: rgba(150, 200, 130, 0.9);
+	word-spacing: 0.8em;
+	letter-spacing: 0.2em;
+	font-family: "Emblema One", cursive;
+	font-size: 380%;
+	
+	
+}
+
+
+
+#logo {
+	width: 150px;
+	padding-left: 1%;
+
+	
+}
+
+
+div#main {
+	background-color: rgba(220, 250, 180, 1);
+	padding-left: 12%;
+	
+}
+
+section#gallery h2, section#about h2, #contact h2 {
+	text-align: center;
+}
+
+
+section#gallery p, section#about p {
+	padding-right: 15%;
+}
+
+
+
+
+
+
+ul {
+	word-spacing: 2.5em;
+	padding-left: 15%;
+	font-size: 200%;
+	padding-bottom: 2%;
+}
+
+ul li {
+	display: inline;
+	font-size: 35px;
+	word-spacing: normal;
+	text-shadow: 2px 2px 3px rgba(70, 140, 70, 0.8);
+	color: rgba(50, 100, 60, 1);
+}
+
+
+
+.names {
+	padding-left: 15%;
+	padding-top: 5%;
+	font-size: 300%;
+	letter-spacing: 0.6em;
+	margin: 0;
+	color: rgba(70, 140, 70, 1);
+	font-family: "Emblema One", cursive;
+}
+
+
+a {
+	text-decoration: none;
+	color: rgba(50, 100, 60, 1);
+
+	
+}
+
+h2, h3 {
+	color: rgba(40, 80, 40, 1);
+}
+
+
+h3 {
+	font-size: 130%;
+	
+}
+
+h2 {
+	font-size: 180%;
+}
+
+
+
+
+#back {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 33%;
+	font-size: 150%;
+}
+
+
+footer {
+	text-align: center;
+	padding: 1%;
+}
+
+footer a {
+	font-weight: 700;
+}
+
+/* Here is table display*/
+
+#TableContainer {
+	display: table;
+	border-spacing: 15px;
+}
+
+
+.tableRow {
+	display: table-row;
+}
+
+
+
+#tfirst, #tsecond, #selfy, #about_me, #signature, #area {
+	display: table-cell;
+	vertical-align: top;
+	
+	
+}
+
+
+#tsecond, #about_me {
+	width: 60%;
+}
+
+#area {
+	width: 60%;
+	text-align: center; 
+	
+}
+
+
+
+#area, #signature {
+	font-size: 130%;
+	padding: 5% 5% 5% 0;
+}
+
+/* Form for sending*/
+
+
+
+#contact {
+	line-height: 30px;
+}
+
+
+
+
+
+form {
+	word-spacing: 0.5em;
+
+}
+
+form  textarea {
+	width: 500px;
+	height: 250px;
+	
+}
+
+
+/* here my pictures at separate pages */
+
+datetime {
+	font-style: italic;
+}
+
+article.boat {
+	text-align: center;
+	padding: 2%;
+}
+
+legend {
+	text-align: center;
+	font-size: small;
+	padding: 1%;
+}
+
+#comment {
+	font-style: italic;
+	font-family: cursive;
+}
